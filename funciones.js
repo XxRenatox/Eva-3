@@ -121,6 +121,9 @@ window.addEventListener('DOMContentLoaded', () => {
                 document.querySelector(`input[name="recomendacion"][value="${item.recomendacion}"]`).checked = true
                 document.getElementById('sugerencias').value = item.sugerencias
 
+                document.getElementById('btn-enviar').value = 'Modificar'
+                document.getElementById('btn-enviar').innerHTML = 'Modificar'
+
                 id = btn.id
             })
         })
