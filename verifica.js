@@ -80,6 +80,9 @@ const limpiar = () => {
         items.classList.remove('is-valid')
         items.classList.remove('is-invalid')
     })
+ document.getElementById('btn-enviar').value = 'Enviar'
+document.getElementById('btn-enviar').innerHTML - 'Enviar'
+
 }
 
 const validarFecha = (fecha) => {
